@@ -9,7 +9,6 @@ Após o utilizador ter inserido os 5 valores apresente:
 - A média das vendas
 """
 
-
 vendas = [0, 0, 0, 0, 0]  # 100 200 300 200 125
 ilhas = ['Faial', 'Pico', 'S. Jorge', 'Graciosa', 'Terceira']
 total = 0
@@ -34,3 +33,16 @@ while validar:
     print(f'A maior venda é: {maior}')
     print(f'A média é: {total / len(ilhas)}')
 validar = False
+
+
+
+"""
+defdeclarar_lista(casas):
+    vendas = []
+    for x in range(casas):
+        vendas.append(0)
+    return vendas
+
+if __name__ == '__main__':
+    vendas = declarar_lista(5)
+    print(f'vendas={v}')
