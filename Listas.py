@@ -25,7 +25,7 @@ Exemplo da estrutura de armazenamento das vendas:
 
 if __name__ == '__main__':
     vendas = [
-        [1, 2, 3, 4, 5],
+        [10, 20, 30, 40, 50],
         [15, 25, 35, 45, 55]
     ]
 
@@ -60,5 +60,5 @@ if __name__ == '__main__':
             # print(f'vendas[{x}][{y}]={vendas[x][y]}')
             total_vendas = total_vendas + vendas[x][y]
             total_linha = total_linha + vendas[x][y]
-        print(f'total_linha={total_linha}')
+        print(f'total_linha={total_linha}')  # 1 linha é a soma da 1º lista
     print(f'total_vendas={total_vendas}')
