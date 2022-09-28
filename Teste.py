@@ -9,13 +9,15 @@ Temos que ter somente numeros
 
 
 def aritmetica(num1, num2, op='+'):
-        total = 'Código de operação inválido'
-        if op == '+':
-            total = num1 + num2
-            return total
-        if __name__ == '__main__':
-            continuar = 's'
-            while continuar == 's':
+    total = 'Código de operação inválido'
+    
+    if op == '+':
+        total = num1 + num2
+        return total
+    if __name__ == '__main__':
+        continuar = 's'
+        while continuar == 's':
+            while True:
                 num1 = float(input('Insira o 1º número'))
                 num2 = float(input('Insira o 2º número'))
                 operacao = input('Insira a operação [+] ')
@@ -23,6 +25,9 @@ def aritmetica(num1, num2, op='+'):
                 continuar = input('Repetir [s | n]? ')
                 if continuar == 'n':
                     break
+
+
+
 
 
 
