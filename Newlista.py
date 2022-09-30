@@ -1,5 +1,13 @@
 """
 Lista Num (5 cases)
+# Outra maneira de fazer o organizador de (lista)
+
+Troquei = True
+while troque:
+troquei = false
+for x in range(4):
+if vendas [x] > vendas [x + 1]:
+troquei = true
 """
 
 import random
