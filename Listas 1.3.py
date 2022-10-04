@@ -8,8 +8,7 @@ def factorial(numero):
 
     return fact
 
+
 if __name__ == '__main__':
     numero = int(input('Insira o numero:'))
     print(f'A fatorial do numero {numero} é {factorial(numero)}')
-
-

@@ -34,10 +34,8 @@ while validar:
     print(f'A média é: {total / len(ilhas)}')
 validar = False
 
-
-
 """
-defdeclarar_lista(casas):
+defeclarar_lista(casas):
     vendas = []
     for x in range(casas):
         vendas.append(0)
@@ -46,3 +44,4 @@ defdeclarar_lista(casas):
 if __name__ == '__main__':
     vendas = declarar_lista(5)
     print(f'vendas={v}')
+    """
